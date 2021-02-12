@@ -1,0 +1,23 @@
+O padrão de projeto Factory é um padrão do tipo CRIACIONAL,
+e tem por objetivo tirar a responsabilidade dos *clientes
+de regras de criação de entidades, colocando dentro
+da fábrica toda a regra de negócio e dependencias para 
+que ela seja capaz de criar novos objetos corretamente
+toda vez que for solicitada.
+
+*cliente=entenda-se por cliente, qualquer recurso que 
+precise do "produto" do qual a fabrica é responsável por criar
+
+Neste caso, implementamos o seguinte cenario:
+-As dividas podem ser de diversos tipos de origem, e cada divida precisa ser 
+paga com uma forma de pagamento.
+-Para pagar uma divida, a forma de pagamento precisa ser utilizada.
+Neste caso, nossas entidades claras são (Divida, FormaPagamento) que criamos como abstratas
+
+*Observação:
+O padrão implementado foi o SimpleFactory, mas o Factory divide-se em 3 tipos:
+-Simple Factory
+-Factory Method
+-Abstract Factory
+
+Para executar os exemplos, execute main.py 
