@@ -1,0 +1,18 @@
+O padrão de projeto Factory é um padrão do tipo ESTRUTURAL,
+e tem por objetivo, como o próprio nome sugere, se uma 
+"fachada" de serviços, bonita, limpa e livre de complexidade.
+A complexidade continua existindo por "de trás" da fachada .
+Ele serve como um garçom:
+-Quando chegamos em um restaurante, temos o cardápio dos
+"serviços" que podemos consumir. Neste momento não queremos
+saber da complexidade da fabricação de um prato, de fila de 
+pedidos, preparação, limpeza, etc.. Só queremos o prato principal,
+simples assim.
+O padrão FACADE tem 3 atores bem distintos:
+-CLIENTE
+-FACADE
+-SUBSISTEMAS
+
+Neste caso, o garçom seria o FACADE, 
+eu o CLIENTE
+e os cozinheiros, chefe de cozinha, lavadores de prato, etc, todos SUBSISTEMAS
